@@ -1,0 +1,31 @@
+
+;; ----- smex-history -----
+(
+ customize-themes
+ customize-variable
+ customize-set-variable
+ load-theme
+ pandoc-mode
+ package-install
+ customize-mode
+)
+
+;; ----- smex-data -----
+(
+ (starter-kit-compile . 1)
+ (magit-status . 1)
+ (clipboard-yank . 2)
+ (set-input-method . 4)
+ (ac-complete-select-8 . 2)
+ (org-mode . 1)
+ (markdown . 1)
+ (markdown-mode . 2)
+ (load-theme . 43)
+ (customize-variable . 6)
+ (todotxt . 1)
+ (customize-set-variable . 2)
+ (customize-mode . 1)
+ (package-install . 4)
+ (pandoc-mode . 2)
+ (customize-themes . 2)
+)

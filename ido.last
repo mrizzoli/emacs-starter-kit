@@ -1,0 +1,72 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/marco/Downloads/papers/wd/" . "Benenati.md/")
+ ("/home/marco/Downloads/papers/mrizzoli.github.io/" . "_posts/")
+ ("/home/marco/Downloads/papers/" . "bib/")
+ ("/home/marco/Downloads/" . "papers/")
+ ("/home/marco/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/marco/Downloads/papers/"
+ "/home/marco/Downloads/papers/bib/"
+ "/home/marco/.emacs.d/"
+ "/home/marco/Downloads/papers/scripts/"
+ "/home/marco/Downloads/papers/mrizzoli.github.io/_posts/"
+ "/home/marco/Downloads/papers/tesi/"
+ "/home/marco/Downloads/"
+ "/home/marco/"
+ "/home/marco/Downloads/todo.txt_cli-2.9/"
+ "/home/marco/Downloads/papers/wd/Benenati.md/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "Benenati.md"
+ "note_comparative.md"
+ "biblio.bib"
+ "marco.org"
+ "pandoc_pdf.sh"
+ "pandoc_config.sh"
+ "indice"
+ "asabiyyah.md"
+ "vakif.md"
+ "2015-03-11-vakif terminology.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/marco/Downloads/papers/" (21773 18121 865004 870000) "vakif.md" "Benenati.rel" "scripts/" "#Benenati.md#" "note.md" "bib/" "lessico" "./" "Benenati.md" "note_comparative.md" "note_comparative.html" "mrizzoli.github.io/" "waqf_hanafi" "wd/" "#note_comparative.md#" "titolo_alternativo" ".zedstate" "tesi/" "Benenati.pdf" "asabiyyah.md" "indice" "../" "note_tesi.rel" "note_comparative.rel" "note_tesi")
+
+ ("/home/marco/Downloads/todo.txt_cli-2.9/" (21758 51627 885003 121000) "done.txt" "todo.cfg" "./" "todo_completion" "todo.txt" "report.txt" "todo.sh" "../")
+
+ ("/home/marco/Downloads/papers/scripts/" (21770 40151 802581 474000) "#pandoc_config.sh#" "worldcat_search.sh" "./" "pandoc_nocite.sh" "pandoc_pdf.sh" "../" "pandoc_config.sh")
+
+ ("/home/marco/.emacs.d/" (21772 43548 849075 977000) "starter-kit-bindings.org" "starter-kit-python.org" "snippets/" "starter-kit-completion.org" "starter-kit-ruby.el" "README.md" "starter-kit-python.el" "starter-kit-text.org" "elpa/" "marco.org" "starter-kit-misc.org" "auto-save-list/" "dominating-file.el" "starter-kit-perl.el" "custom.el" ".gitignore" "starter-kit-ruby.org" "starter-kit-registers.el" "places" "./" "starter-kit-org.el" "starter-kit-elpa.org" "eshell/" "starter-kit-aspell.el" "starter-kit-lisp.org" "starter-kit-aspell.org" "starter-kit-publish.org" "init.el" "starter-kit-stats.el" "starter-kit-misc.el" ".git/" "ido.last" "starter-kit-eshell.el" "smex-items" "starter-kit-bindings.el" "starter-kit-publish.el" "starter-kit-text.el" "src/" "starter-kit-publish.elc" "starter-kit.el" "ac-comphist.dat" "starter-kit-lisp.el" "starter-kit-registers.org" "starter-kit-elpa.el" "starter-kit-js.org" "marco.el" "starter-kit-completion.el" "starter-kit-latex.el" "starter-kit.org" "backups/" "starter-kit-defuns.el" "starter-kit-latex.org" "../" "starter-kit-stats.org" "starter-kit-eshell.org" "starter-kit-org.org" "session.25d7cab0f-a1e2-4ad2-9a11-6a3dab0d431a" "starter-kit-js.el" "starter-kit-defuns.org" "starter-kit-perl.org")
+
+ ("/home/marco/Downloads/papers/bib/" (21772 42569 414075 510000) ".git/" "bin/" "./" "socbib.bib" "biblio.bib" "README.markdown" "../" "bibtool-rsc/" ".gitignore")
+
+ ("/home/marco/Downloads/" (21772 5603 380000 861000) "WeThinkAtheistBirds.png" "3__4_Unit_of__Waqf_lecture_slides_Legal_Framework_I__II.pptx" "dsc07794.jpg" "linux ubuntu gnu maverick 2000x1500 wallpaper_www.wallpaperhi.com_78.jpg" "todotxt.el-master.zip" "terminology_files/" "ubuntu-floor-wallpapers_33435_1920x1080.jpg" "todo.txt_cli-2.9/" "./" "https___book.flypgs.com_Common_Itinerary.pdf" "terminology.html" "show_repo.sh" "geeknote/" "aVcoz.jpg" "todotxt.el" "nature_scenes_5-wallpaper-1366x768.jpg" "gnu-linux-black-wallpaper.png" "Black Sails - 02x07 - XV..M33P.English.HI.C.orig.Addic7ed.com.srt" "index.org" "Black.Sails.S02E07.HDTV.x264-M33P.mp4" "waqf_book/" "lines-wallpaper_1920x1200.jpg" "stuff" "papers/" "castle.2009.717.hdtv-lol.mp4" "Black Sails - 02x08 - XVI..KILLERS.English.HI.C.orig.Addic7ed.com.srt" "IMG_20130405_204534.jpg" "../" "vakif.docx" "DSCN4372.JPG" "markdown")
+
+ ("/home/marco/" (21772 5801 40000 956000) ".bash_history" "Music/" ".conkyrc" "Mail/" ".cache/" ".config/" "dead.letter" ".dbus/" ".bash_logout" "mail/" ".isbntools/" ".local/" ".recently-used" "./" "Templates/" ".mozilla/" ".vimrc" ".geeknote/" "sent" ".icedove/" ".python-eggs/" ".conkyrc_clock" "Documents/" ".git-credential-cache/" ".xscreensaver" ".aws/" ".themes/" ".vim/" "Desktop/" "Downloads/" ".icons/" ".zotero/" ".pine-passfile" "Pictures/" ".pip/" ".profile" ".gvfs/" "Public/" ".bashrc" ".duply/" ".gconf/" ".viminfo" ".irssi/" "Videos/" ".gitconfig" ".alpine-smime/" ".ICEauthority" ".nano_history" ".thumbnails/" ".addressbook" ".muttrc" ".fontconfig/" ".Xauthority" ".pinerc" "../" ".emacs.d/" ".gnupg/" ".vimrc.bk" ".gstreamer-0.10/")
+
+ ("/home/marco/Downloads/papers/tesi/" (21758 64926 757792 707000) "indice.md" ".git/" "note.md" "./" "Benenati.md" "note_comparative.md" "vakif_terminology.md" "asabiyyah.md" "lessico.md" "../")
+
+ ("/home/marco/Downloads/papers/mrizzoli.github.io/" (21758 62824 297791 704000) "_octopress.yml" ".git/" "images/" "favicon.png" "package.json" "./" "Gemfile.lock" "index.html" "Gemfile" "feed.xml" "_config.yml" "assets/" "README.md" "Gruntfile.js" "_config.yml.bk" "favicon.ico" "posts/" "LICENSE" "_layouts/" "about/" "404.md" "_includes/" "_templates/" "../" "CNAME" "index.md" "proposal" "_posts/" "_data/" "_sass/")
+
+ ("/home/marco/Downloads/papers/mrizzoli.github.io/_posts/" (21758 64804 587792 649000) "2015-03-06-indice provvisorio.md" "./" "2015-03-11-vakif terminology.md" "2015-03-08-plot.md" "2015-03-06-note tesi.md" "../")
+
+ ("/home/marco/Downloads/papers/wd/Benenati.md/" (21758 8156 327582 948000) "main.docx" "./" "main.tex" "biblio.bib" "main.md" "../")
+
+ ("/home/marco/Downloads/papers/wd/" (21757 59469 680002 342000) "note_comparative.md_out/" "./" "Benenati.md/" "note_comparative.md/" "../" "basefiles/")
+
+ ("/home/" (21646 54062 0 0) "./" "marco/" "../")
+
+ ("/home/marco/Downloads/papers/mrizzoli.github.io/posts/" (21753 43822 0 0) "./" "../" "index.md")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

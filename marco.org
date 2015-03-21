@@ -198,11 +198,16 @@ Tell RefTeX where the bibliography files are.
 #+begin_src emacs-lisp    
     ;; Make RefTex able to find my local bib files
     (setq reftex-bibpath-environment-variables
-    '("/Users/kjhealy/Library/texmf/bibtex/bib"))
+    '("/home/marco/Downloads/papers/bib"))
 
     ;; Default bibliography
     (setq reftex-default-bibliography
-    '("/Users/kjhealy/Documents/bibs/socbib.bib"))
+    '("/home/marco/Downloads/papers/bib/biblio.bib"))
+
+(eval-after-load 'reftex-vars
+  '(progn 
+     (setq reftex-cite-format '((?\C-m . "[@%l]")))))
+
 #+end_src
 
 *** Local vc commands
@@ -546,7 +551,7 @@ Some last tweaks.
   (global-set-key (kbd "M-'") 'comment-or-uncomment-region)
 
   ;; Base dir
-  (cd "~/")
+  (cd "~/Downloads/papers")
 
   ;; custom variables kludge. Why can't I get these to work via setq?
   (custom-set-variables
@@ -562,8 +567,6 @@ Some last tweaks.
   '(text-mode-hook (quote (text-mode-hook-identify)))
   )
 #+end_src
-   
-   
    
    
    
