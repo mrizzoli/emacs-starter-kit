@@ -198,11 +198,11 @@ Tell RefTeX where the bibliography files are.
 #+begin_src emacs-lisp    
     ;; Make RefTex able to find my local bib files
     (setq reftex-bibpath-environment-variables
-    '("/home/marco/Downloads/papers/bib"))
+    '("/home/marco/biblio"))
 
     ;; Default bibliography
     (setq reftex-default-bibliography
-    '("/home/marco/Downloads/papers/bib/biblio.bib"))
+    '("/home/marco/biblio/biblio.bib"))
 
 (eval-after-load 'reftex-vars
   '(progn 
