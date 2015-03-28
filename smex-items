@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- customize-themes
- customize-variable
- customize-set-variable
  load-theme
- pandoc-mode
+ geeknote-edit
  package-install
- customize-mode
+ markdown-toc/generate-toc
+ customize-variable
+ customize-themes
+ customize-set-variable
 )
 
 ;; ----- smex-data -----
@@ -20,12 +20,14 @@
  (org-mode . 1)
  (markdown . 1)
  (markdown-mode . 2)
- (load-theme . 43)
- (customize-variable . 6)
+ (load-theme . 74)
+ (customize-variable . 7)
  (todotxt . 1)
  (customize-set-variable . 2)
  (customize-mode . 1)
- (package-install . 4)
+ (package-install . 6)
  (pandoc-mode . 2)
  (customize-themes . 2)
+ (markdown-toc/generate-toc . 3)
+ (geeknote-edit . 2)
 )

@@ -6,11 +6,15 @@
  ("/home/marco/Downloads/papers/mrizzoli.github.io/" . "_posts/")
  ("/home/marco/Downloads/papers/" . "bib/")
  ("/home/marco/Downloads/" . "papers/")
- ("/home/marco/" . ".emacs.d/")
+ ("/home/marco/" . "scripts/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/marco/scripts/"
+ "/home/marco/tesi/"
+ "/home/marco/Templates/"
+ "/home/marco/wd/"
  "/home/marco/Downloads/papers/"
  "/home/marco/Downloads/papers/bib/"
  "/home/marco/.emacs.d/"
@@ -25,33 +29,41 @@
 
 ;; ----- ido-work-file-list -----
 (
- "Benenati.md"
+ "pandoc_nocite2.sh"
  "note_comparative.md"
+ "header.md"
+ "wp.md"
+ "pandoc_nocite.sh"
+ "pandoc_config.sh"
+ "Benenati.md"
+ "note.md"
  "biblio.bib"
  "marco.org"
- "pandoc_pdf.sh"
- "pandoc_config.sh"
- "indice"
- "asabiyyah.md"
- "vakif.md"
- "2015-03-11-vakif terminology.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/marco/tesi/" (21776 5401 735000 378000) "vakif_terminology.md" "lessico.md" "./" "note.md" "indice.md" ".git/" "Benenati.md" "note_comparative.md" "asabiyyah.md" "../" "Project.native.pandoc")
+
+ ("/home/marco/Downloads/" (21775 5157 595141 375000) "WeThinkAtheistBirds.png" "3__4_Unit_of__Waqf_lecture_slides_Legal_Framework_I__II.pptx" "dsc07794.jpg" "linux ubuntu gnu maverick 2000x1500 wallpaper_www.wallpaperhi.com_78.jpg" "ubuntu-floor-wallpapers_33435_1920x1080.jpg" "./" "aVcoz.jpg" "nature_scenes_5-wallpaper-1366x768.jpg" "gnu-linux-black-wallpaper.png" "waqf_book/" "lines-wallpaper_1920x1200.jpg" "IMG_20130405_204534.jpg" "../" "DSCN4372.JPG")
+
+ ("/home/marco/.emacs.d/" (21776 4697 885000 42000) "starter-kit-bindings.org" "starter-kit-python.org" "snippets/" "starter-kit-completion.org" "starter-kit-ruby.el" "README.md" "starter-kit-python.el" "starter-kit-text.org" "elpa/" "marco.org" "starter-kit-misc.org" "auto-save-list/" "dominating-file.el" "starter-kit-perl.el" "custom.el" ".gitignore" "starter-kit-ruby.org" "starter-kit-registers.el" "places" "./" "starter-kit-org.el" "starter-kit-elpa.org" "eshell/" "starter-kit-aspell.el" "starter-kit-lisp.org" "starter-kit-aspell.org" "starter-kit-publish.org" "init.el" "starter-kit-stats.el" "starter-kit-misc.el" ".git/" "ido.last" "starter-kit-eshell.el" "smex-items" "starter-kit-bindings.el" "starter-kit-publish.el" "starter-kit-text.el" "src/" "starter-kit-publish.elc" "starter-kit.el" "ac-comphist.dat" "starter-kit-lisp.el" "starter-kit-registers.org" "starter-kit-elpa.el" "starter-kit-js.org" "marco.el" "starter-kit-completion.el" "starter-kit-latex.el" "starter-kit.org" "session.2fe325e29-7ee8-40a5-a8e5-b14afd4696a6" "backups/" "starter-kit-defuns.el" "starter-kit-latex.org" "../" "starter-kit-stats.org" "starter-kit-eshell.org" "starter-kit-org.org" "session.25d7cab0f-a1e2-4ad2-9a11-6a3dab0d431a" "starter-kit-js.el" "starter-kit-defuns.org" "starter-kit-perl.org")
+
+ ("/home/marco/scripts/" (21774 63488 655137 939000) "pandoc_config.sh" "./" "pandoc_pdf.sh" ".git/" "pandoc_nocite.sh" "worldcat_search.sh" "pandoc_nocite2.sh" "../")
+
+ ("/home/marco/Templates/" (21646 54238 0 0) "./" "../")
+
+ ("/home/marco/wd/" (21776 4873 905000 126000) "main.pdf" "./" "wp.md" "../" ".#wp.md")
+
+ ("/home/marco/" (21776 4645 570000 17000) ".bash_history" "GeekNoteSync.log" "Music/" ".conkyrc" "biblio/" "Mail/" ".cache/" ".config/" "dead.letter" ".dbus/" ".bash_logout" "mail/" ".isbntools/" ".local/" ".recently-used" "wd/" "./" "Templates/" ".mozilla/" ".geeknote/" "sent" ".icedove/" ".python-eggs/" ".conkyrc_clock" "Documents/" ".git-credential-cache/" ".xscreensaver" ".aws/" ".themes/" "scripts/" "Desktop/" "Downloads/" ".icons/" "mrizzoli.github.io/" ".zotero/" ".pine-passfile" "Pictures/" ".pip/" ".profile" ".gvfs/" "Public/" ".bashrc" ".duply/" ".gconf/" ".irssi/" "Videos/" "stuff/" "tesi/" ".gitconfig" ".alpine-smime/" ".ICEauthority" ".nano_history" ".thumbnails/" ".addressbook" ".muttrc" ".fontconfig/" ".Xauthority" ".pinerc" "../" ".emacs.d/" ".gnupg/" ".gstreamer-0.10/")
+
  ("/home/marco/Downloads/papers/" (21773 18121 865004 870000) "vakif.md" "Benenati.rel" "scripts/" "#Benenati.md#" "note.md" "bib/" "lessico" "./" "Benenati.md" "note_comparative.md" "note_comparative.html" "mrizzoli.github.io/" "waqf_hanafi" "wd/" "#note_comparative.md#" "titolo_alternativo" ".zedstate" "tesi/" "Benenati.pdf" "asabiyyah.md" "indice" "../" "note_tesi.rel" "note_comparative.rel" "note_tesi")
 
  ("/home/marco/Downloads/todo.txt_cli-2.9/" (21758 51627 885003 121000) "done.txt" "todo.cfg" "./" "todo_completion" "todo.txt" "report.txt" "todo.sh" "../")
 
  ("/home/marco/Downloads/papers/scripts/" (21770 40151 802581 474000) "#pandoc_config.sh#" "worldcat_search.sh" "./" "pandoc_nocite.sh" "pandoc_pdf.sh" "../" "pandoc_config.sh")
 
- ("/home/marco/.emacs.d/" (21772 43548 849075 977000) "starter-kit-bindings.org" "starter-kit-python.org" "snippets/" "starter-kit-completion.org" "starter-kit-ruby.el" "README.md" "starter-kit-python.el" "starter-kit-text.org" "elpa/" "marco.org" "starter-kit-misc.org" "auto-save-list/" "dominating-file.el" "starter-kit-perl.el" "custom.el" ".gitignore" "starter-kit-ruby.org" "starter-kit-registers.el" "places" "./" "starter-kit-org.el" "starter-kit-elpa.org" "eshell/" "starter-kit-aspell.el" "starter-kit-lisp.org" "starter-kit-aspell.org" "starter-kit-publish.org" "init.el" "starter-kit-stats.el" "starter-kit-misc.el" ".git/" "ido.last" "starter-kit-eshell.el" "smex-items" "starter-kit-bindings.el" "starter-kit-publish.el" "starter-kit-text.el" "src/" "starter-kit-publish.elc" "starter-kit.el" "ac-comphist.dat" "starter-kit-lisp.el" "starter-kit-registers.org" "starter-kit-elpa.el" "starter-kit-js.org" "marco.el" "starter-kit-completion.el" "starter-kit-latex.el" "starter-kit.org" "backups/" "starter-kit-defuns.el" "starter-kit-latex.org" "../" "starter-kit-stats.org" "starter-kit-eshell.org" "starter-kit-org.org" "session.25d7cab0f-a1e2-4ad2-9a11-6a3dab0d431a" "starter-kit-js.el" "starter-kit-defuns.org" "starter-kit-perl.org")
-
  ("/home/marco/Downloads/papers/bib/" (21772 42569 414075 510000) ".git/" "bin/" "./" "socbib.bib" "biblio.bib" "README.markdown" "../" "bibtool-rsc/" ".gitignore")
-
- ("/home/marco/Downloads/" (21772 5603 380000 861000) "WeThinkAtheistBirds.png" "3__4_Unit_of__Waqf_lecture_slides_Legal_Framework_I__II.pptx" "dsc07794.jpg" "linux ubuntu gnu maverick 2000x1500 wallpaper_www.wallpaperhi.com_78.jpg" "todotxt.el-master.zip" "terminology_files/" "ubuntu-floor-wallpapers_33435_1920x1080.jpg" "todo.txt_cli-2.9/" "./" "https___book.flypgs.com_Common_Itinerary.pdf" "terminology.html" "show_repo.sh" "geeknote/" "aVcoz.jpg" "todotxt.el" "nature_scenes_5-wallpaper-1366x768.jpg" "gnu-linux-black-wallpaper.png" "Black Sails - 02x07 - XV..M33P.English.HI.C.orig.Addic7ed.com.srt" "index.org" "Black.Sails.S02E07.HDTV.x264-M33P.mp4" "waqf_book/" "lines-wallpaper_1920x1200.jpg" "stuff" "papers/" "castle.2009.717.hdtv-lol.mp4" "Black Sails - 02x08 - XVI..KILLERS.English.HI.C.orig.Addic7ed.com.srt" "IMG_20130405_204534.jpg" "../" "vakif.docx" "DSCN4372.JPG" "markdown")
-
- ("/home/marco/" (21772 5801 40000 956000) ".bash_history" "Music/" ".conkyrc" "Mail/" ".cache/" ".config/" "dead.letter" ".dbus/" ".bash_logout" "mail/" ".isbntools/" ".local/" ".recently-used" "./" "Templates/" ".mozilla/" ".vimrc" ".geeknote/" "sent" ".icedove/" ".python-eggs/" ".conkyrc_clock" "Documents/" ".git-credential-cache/" ".xscreensaver" ".aws/" ".themes/" ".vim/" "Desktop/" "Downloads/" ".icons/" ".zotero/" ".pine-passfile" "Pictures/" ".pip/" ".profile" ".gvfs/" "Public/" ".bashrc" ".duply/" ".gconf/" ".viminfo" ".irssi/" "Videos/" ".gitconfig" ".alpine-smime/" ".ICEauthority" ".nano_history" ".thumbnails/" ".addressbook" ".muttrc" ".fontconfig/" ".Xauthority" ".pinerc" "../" ".emacs.d/" ".gnupg/" ".vimrc.bk" ".gstreamer-0.10/")
 
  ("/home/marco/Downloads/papers/tesi/" (21758 64926 757792 707000) "indice.md" ".git/" "note.md" "./" "Benenati.md" "note_comparative.md" "vakif_terminology.md" "asabiyyah.md" "lessico.md" "../")
 

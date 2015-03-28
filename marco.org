@@ -551,7 +551,7 @@ Some last tweaks.
   (global-set-key (kbd "M-'") 'comment-or-uncomment-region)
 
   ;; Base dir
-  (cd "~/Downloads/papers")
+  (cd "~/")
 
   ;; custom variables kludge. Why can't I get these to work via setq?
   (custom-set-variables
