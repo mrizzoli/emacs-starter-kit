@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ menu-set-font
+ describe-font
  load-theme
- geeknote-edit
+ starter-kit-compile
  package-install
- markdown-toc/generate-toc
  customize-variable
  customize-themes
- customize-set-variable
 )
 
 ;; ----- smex-data -----
 (
- (starter-kit-compile . 1)
+ (starter-kit-compile . 3)
  (magit-status . 1)
  (clipboard-yank . 2)
  (set-input-method . 4)
@@ -20,7 +20,7 @@
  (org-mode . 1)
  (markdown . 1)
  (markdown-mode . 2)
- (load-theme . 74)
+ (load-theme . 77)
  (customize-variable . 7)
  (todotxt . 1)
  (customize-set-variable . 2)
@@ -30,4 +30,6 @@
  (customize-themes . 2)
  (markdown-toc/generate-toc . 3)
  (geeknote-edit . 2)
+ (menu-set-font . 3)
+ (describe-font . 1)
 )
