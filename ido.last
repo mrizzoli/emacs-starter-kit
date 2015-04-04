@@ -6,13 +6,13 @@
  ("/home/marco/Downloads/papers/mrizzoli.github.io/" . "_posts/")
  ("/home/marco/Downloads/papers/" . "bib/")
  ("/home/marco/Downloads/" . "papers/")
- ("/home/marco/" . ".emacs.d/")
+ ("/home/marco/" . "tesi/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/marco/.emacs.d/"
  "/home/marco/tesi/"
+ "/home/marco/.emacs.d/"
  "/home/marco/scripts/"
  "/home/marco/Templates/"
  "/home/marco/wd/"
@@ -29,6 +29,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "Benenati.md"
+ "lessico.md"
  "marco.el"
  "custom.el"
  "note_comparative.md"
@@ -37,15 +39,13 @@
  "header.md"
  "wp.md"
  "pandoc_nocite.sh"
- "Benenati.md"
- "note.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/marco/.emacs.d/" (21782 56499 537588 659000) "starter-kit-bindings.org" "starter-kit-python.org" "snippets/" "starter-kit-completion.org" "starter-kit-ruby.el" "README.md" "starter-kit-python.el" "starter-kit-text.org" "elpa/" "marco.org" "starter-kit-misc.org" "auto-save-list/" "dominating-file.el" "starter-kit-perl.el" "custom.el" ".gitignore" "starter-kit-ruby.org" "starter-kit-registers.el" "places" "./" "starter-kit-org.el" "starter-kit-elpa.org" "eshell/" "starter-kit-aspell.el" "starter-kit-lisp.org" "starter-kit-aspell.org" "starter-kit-publish.org" "init.el" "starter-kit-stats.el" "starter-kit-misc.el" ".git/" "ido.last" "starter-kit-eshell.el" "smex-items" "starter-kit-bindings.el" "starter-kit-publish.el" "starter-kit-text.el" "src/" "starter-kit-publish.elc" "starter-kit.el" "ac-comphist.dat" "starter-kit-lisp.el" "starter-kit-registers.org" "starter-kit-elpa.el" "starter-kit-js.org" "marco.el" "starter-kit-completion.el" "starter-kit-latex.el" "starter-kit.org" "backups/" "starter-kit-defuns.el" "starter-kit-latex.org" "../" "starter-kit-stats.org" "starter-kit-eshell.org" "starter-kit-org.org" "starter-kit-js.el" "starter-kit-defuns.org" "games/" "starter-kit-perl.org")
+ ("/home/marco/tesi/" (21782 57115 352588 952000) "vakif_terminology.md" "lessico.md" "./" "note.md" "indice.md" ".git/" "Benenati.md" "note_comparative.md" "asabiyyah.md" "../")
 
- ("/home/marco/tesi/" (21782 44118 457582 755000) "vakif_terminology.md" "lessico.md" "./" "note.md" "indice.md" ".git/" "Benenati.md" "note_comparative.md" "asabiyyah.md" "../")
+ ("/home/marco/.emacs.d/" (21782 56499 537588 659000) "starter-kit-bindings.org" "starter-kit-python.org" "snippets/" "starter-kit-completion.org" "starter-kit-ruby.el" "README.md" "starter-kit-python.el" "starter-kit-text.org" "elpa/" "marco.org" "starter-kit-misc.org" "auto-save-list/" "dominating-file.el" "starter-kit-perl.el" "custom.el" ".gitignore" "starter-kit-ruby.org" "starter-kit-registers.el" "places" "./" "starter-kit-org.el" "starter-kit-elpa.org" "eshell/" "starter-kit-aspell.el" "starter-kit-lisp.org" "starter-kit-aspell.org" "starter-kit-publish.org" "init.el" "starter-kit-stats.el" "starter-kit-misc.el" ".git/" "ido.last" "starter-kit-eshell.el" "smex-items" "starter-kit-bindings.el" "starter-kit-publish.el" "starter-kit-text.el" "src/" "starter-kit-publish.elc" "starter-kit.el" "ac-comphist.dat" "starter-kit-lisp.el" "starter-kit-registers.org" "starter-kit-elpa.el" "starter-kit-js.org" "marco.el" "starter-kit-completion.el" "starter-kit-latex.el" "starter-kit.org" "backups/" "starter-kit-defuns.el" "starter-kit-latex.org" "../" "starter-kit-stats.org" "starter-kit-eshell.org" "starter-kit-org.org" "starter-kit-js.el" "starter-kit-defuns.org" "games/" "starter-kit-perl.org")
 
  ("/home/marco/scripts/" (21776 6603 882864 352000) "pandoc_config.sh" "./" "pandoc_pdf.sh" ".git/" "pandoc_nocite.sh" "worldcat_search.sh" "pandoc_nocite2.sh" "../")
 

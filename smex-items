@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
- menu-set-font
- describe-font
  load-theme
+ describe-font
+ menu-set-font
  starter-kit-compile
  package-install
  customize-variable
@@ -20,7 +20,7 @@
  (org-mode . 1)
  (markdown . 1)
  (markdown-mode . 2)
- (load-theme . 77)
+ (load-theme . 82)
  (customize-variable . 7)
  (todotxt . 1)
  (customize-set-variable . 2)
@@ -31,5 +31,5 @@
  (markdown-toc/generate-toc . 3)
  (geeknote-edit . 2)
  (menu-set-font . 3)
- (describe-font . 1)
+ (describe-font . 2)
 )
