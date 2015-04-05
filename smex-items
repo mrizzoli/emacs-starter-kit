@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ dired
+ magit-status
+ eval-buffer
+ eval-current-buffer
+ geeknote-edit
  load-theme
- describe-font
- menu-set-font
- starter-kit-compile
  package-install
- customize-variable
- customize-themes
 )
 
 ;; ----- smex-data -----
 (
  (starter-kit-compile . 3)
- (magit-status . 1)
+ (magit-status . 4)
  (clipboard-yank . 2)
  (set-input-method . 4)
  (ac-complete-select-8 . 2)
@@ -25,11 +25,17 @@
  (todotxt . 1)
  (customize-set-variable . 2)
  (customize-mode . 1)
- (package-install . 6)
+ (package-install . 7)
  (pandoc-mode . 2)
  (customize-themes . 2)
  (markdown-toc/generate-toc . 3)
- (geeknote-edit . 2)
+ (geeknote-edit . 4)
  (menu-set-font . 3)
  (describe-font . 2)
+ (geeknote-show . 2)
+ (eval-current-buffer . 1)
+ (eval-buffer . 1)
+ (dired . 4)
+ (magit-commit-mode . 1)
+ (magit-push . 1)
 )
