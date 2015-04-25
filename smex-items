@@ -35,7 +35,7 @@
  (geeknote-show . 2)
  (eval-current-buffer . 1)
  (eval-buffer . 1)
- (dired . 4)
+ (dired . 5)
  (magit-commit-mode . 1)
  (magit-push . 1)
 )
