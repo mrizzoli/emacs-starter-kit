@@ -18,7 +18,7 @@ loading the =zenburn= and =anti-zenburn= themes.
 #+begin_src emacs-lisp
   (add-to-list 'custom-theme-load-path "~/.emacs.d/elpa")
   (setq custom-safe-themes t)
-  (load-theme 'anti-zenburn t)
+  (load-theme 'adwaita t)
 #+end_src
 
 ** Window system 
@@ -67,7 +67,7 @@ Thin window dividers and no scroll bars. Toggle with `C-c C-s`.
 
 ** Set browser
 Set this to whatever browser you use e.g...
-: ;; (setq browse-url-browser-function 'browse-url-firefox)
+;; (setq browse-url-browser-function 'browse-url-firefox)
 : ;; (setq browse-url-browser-function 'browse-default-macosx-browser)
 : ;; (setq browse-url-browser-function 'browse-default-windows-browser)
 : ;; (setq browse-url-browser-function 'browse-default-kde)

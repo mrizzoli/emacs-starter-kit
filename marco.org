@@ -72,7 +72,7 @@ Just maximize the frame. Not true fullscreen
 **** Option 2  
 Fullscreen toggle using maxframe.el. 
 #+source: fullscreen-3
-#+begin_src emacs-lisp :tangle no
+#+begin_src emacs-lisp :yes
   
  (require 'maxframe)
  (defvar my-fullscreen-p t "Check if fullscreen is on or off")
@@ -198,11 +198,11 @@ Tell RefTeX where the bibliography files are.
 #+begin_src emacs-lisp    
     ;; Make RefTex able to find my local bib files
     (setq reftex-bibpath-environment-variables
-    '("/home/marco/biblio"))
+    '("/home/mrizzoli/notes_src/biblio"))
 
     ;; Default bibliography
     (setq reftex-default-bibliography
-    '("/home/marco/biblio/biblio.bib"))
+    '("/home/mrizzoli/notes_src/biblio/biblio.bib"))
 
 (eval-after-load 'reftex-vars
   '(progn 
@@ -566,6 +566,7 @@ Some last tweaks.
   '(blink-cursor-mode nil)
   '(text-mode-hook (quote (text-mode-hook-identify)))
   )
+
 #+end_src
    
    
